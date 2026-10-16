@@ -1,0 +1,13 @@
+body {
+  background-color: #fbf6e3;   /* pale cream */
+  color: #333;
+  font-family: Georgia, serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  line-height: 1.6;
+}
+
+nav a {
+  margin-right: 1rem;
+}

@@ -80,3 +80,8 @@ nav a {
     display: none;         /* avoids a stray bar when the button wraps below the email */
   }
 }
+
+#map {
+  height: 70vh;
+  min-height: 360px;
+}

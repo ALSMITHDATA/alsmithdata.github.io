@@ -8,18 +8,40 @@
 </head>
 <body>
   <header>
-    <h1><img src="me.jpg" alt="Photo of Alexander" class="avatar">Hi, I'm <span class="highlight">Alex Smith</span></h1>
-    <p>Data architect &amp; developer</p>
-  </header>
+    <div class="intro">
+        <img src="me.jpg" alt="Photo of Alexander" class="avatar">
+        <div class="intro-text">
+            <h1>Hi, I'm <span class="highlight">Alex Smith</span></h1>
+            <p class="contact">
+                <a href="aldsmith@protonmail.com" class="email">aldsmith@protonmail.com</a>
+                <span class="divider">|</span>
+                <a href="https://substack.com/@aldsmith" class="substack-btn" target="_blank" rel="noopener" aria-label="Alex Smith on Substack">
+                    <svg viewBox="0 0 24 24" width="28" height="28" role="img" aria-hidden="true">
+                        <rect width="24" height="24" rx="4" fill="#FF6719"/>
+                        <path fill="#fff" transform="translate(4.8 4.8) scale(0.6)"
+                          d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/>
+                    </svg>
+                </a>
+            </p>
+        </div>
+    </div>
 
+
+</header>
   <main>
-    <h3>Bio</h3>
-    <p>Content goes here.</p>
+  <section>
+    <p>I'm a <strong>Data Architect & Analytics Developer</strong> with nearly a decade's experience. I specialise in helping new organisations build up their data functions and guide their path to growth.</p>
+  </section>
+  <section class="projects">
     <h3>Projects</h3>
-    <p>Content goes here.</p>
-    <a href="map.html">Map</a>
+    <p><span class="highlight">Current project:</span> building up a comprehensive dataset of 'blocked sites' in the English planning system. <a href="map.html">Link to Map</a></p>
+    <p><span class="highlight">Typical projects:</span> most recently I worked with https://www.warmer-homes.london as their founding data engineer. My work with them involved drawing up their data strategy, designing their data architecture and cloud/ETL processes from scratch, and negotiating data contracts.</p>
+    <p><span class="highlight">Coming soon:</span> the UK has very poor data on emigration. 'Who leaves Britain?' will compile a wide range of immigration data sources from second countries to inform the the debate on immigration/emigration in Britain.</p>
+  </section>
+  <section>
     <h3>Experience</h3>
-    <p>I have worked in data analytics in its many forms for nearly a decade. Please see <a href="cv.pdf" target="_blank" rel="noopener">my CV</a> for further details.</p>
-  </main>
+    <p>I have worked in data analytics in its many forms for nearly a decade. See <a href="cv.pdf" target="_blank" rel="noopener">my CV</a> for further details.</p>
+  </section>
+</main>
 </body>
 </html>
